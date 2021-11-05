@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<link href="http://myscreenchecker.com/msc-icon.png" rel="icon" type="image/x-icon">
+<link rel="stylesheet" type="text/css" href="./assets/main.css">
+<meta name="description" content="What is your screen resolution? How is your screen health? Is there any dead pixels on your screen? Find out instantly for free right on the web!">
+<meta name="keywords" content="screen check, screen resolution, screen size, dead pixel, screen health, what is my screen resolution, online screen checker, master device display, myscreenchecker.com">
+<script src="./assets/jquery.2.2.4.min.js"></script>
+<script src="./assets/colors.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Screen Resolution - My Screen Health | MyScreenChecker.Com - Master Your Device's Display</title>
+<script>
+function shuffle(array) {
+	var currentIndex = array.length, temporaryValue, randomIndex;
+
+	// While there remain elements to shuffle...
+	while (0 !== currentIndex) {
+
+		// Pick a remaining element...
+		randomIndex = Math.floor(Math.random() * currentIndex);
+		currentIndex -= 1;
+
+		// And swap it with the current element.
+		temporaryValue = array[currentIndex];
+		array[currentIndex] = array[randomIndex];
+		array[randomIndex] = temporaryValue;
+	}
+
+	return array;
+}
+
+</script>
+
+<style type="text/css" data-styled-components="FiaaB gTcftA caPIRE" data-styled-components-is-local="true">
+/* sc-component-id: sc-keyframes-FiaaB */
+@-webkit-keyframes FiaaB{100%{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg);}}@keyframes FiaaB{100%{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg);}}
+/* sc-component-id: sc-keyframes-gTcftA */
+@-webkit-keyframes gTcftA{10%,90%{-webkit-transform:translate3d(-1px,0,0);-ms-transform:translate3d(-1px,0,0);transform:translate3d(-1px,0,0);}20%,80%{-webkit-transform:translate3d(2px,0,0);-ms-transform:translate3d(2px,0,0);transform:translate3d(2px,0,0);}30%,50%,70%{-webkit-transform:translate3d(-4px,0,0);-ms-transform:translate3d(-4px,0,0);transform:translate3d(-4px,0,0);}40%,60%{-webkit-transform:translate3d(4px,0,0);-ms-transform:translate3d(4px,0,0);transform:translate3d(4px,0,0);}}@keyframes gTcftA{10%,90%{-webkit-transform:translate3d(-1px,0,0);-ms-transform:translate3d(-1px,0,0);transform:translate3d(-1px,0,0);}20%,80%{-webkit-transform:translate3d(2px,0,0);-ms-transform:translate3d(2px,0,0);transform:translate3d(2px,0,0);}30%,50%,70%{-webkit-transform:translate3d(-4px,0,0);-ms-transform:translate3d(-4px,0,0);transform:translate3d(-4px,0,0);}40%,60%{-webkit-transform:translate3d(4px,0,0);-ms-transform:translate3d(4px,0,0);transform:translate3d(4px,0,0);}}
+/* sc-component-id: sc-keyframes-caPIRE */
+@-webkit-keyframes caPIRE{0%{-webkit-transform:scale(.75);-ms-transform:scale(.75);transform:scale(.75);}20%{-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1);}40%{-webkit-transform:scale(.75);-ms-transform:scale(.75);transform:scale(.75);}60%{-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1);}80%{-webkit-transform:scale(.75);-ms-transform:scale(.75);transform:scale(.75);}100%{-webkit-transform:scale(.75);-ms-transform:scale(.75);transform:scale(.75);}}@keyframes caPIRE{0%{-webkit-transform:scale(.75);-ms-transform:scale(.75);transform:scale(.75);}20%{-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1);}40%{-webkit-transform:scale(.75);-ms-transform:scale(.75);transform:scale(.75);}60%{-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1);}80%{-webkit-transform:scale(.75);-ms-transform:scale(.75);transform:scale(.75);}100%{-webkit-transform:scale(.75);-ms-transform:scale(.75);transform:scale(.75);}}</style><style>
+      .glot-sub-active{
+        color: #1296ba !important;
+      }
+      
+      .glot-sub-hovered{
+        color: #1296ba !important;
+      }
+      .glot-sub-clzz{
+        cursor: pointer;
+        
+        lineHeight: 1.2;
+          font-size: 28px;
+          color: #FFCC00; background: rgba(17, 17, 17, 0.7);
+        
+      }
+      .glot-sub-clzz:hover{
+        color: #1296ba !important;
+      }
+      .ej-trans-sub{
+        position: absolute;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999999;
+        cursor: move;
+      }
+      .ej-trans-sub > span{
+        color: #3CF9ED;
+        font-size: 18px;
+        text-align: center;
+        padding: 0 16px;
+        line-height: 1.5;
+        background: rgba(32, 26, 25, 0.8);
+        // text-shadow: 0px 1px 4px black;
+        padding: 0 8px;
+        
+        lineHeight: 1.2;
+        font-size: 16px;
+        color: #0CB1C7; background: rgba(67, 65, 65, 0.7);
+      
+      }
+      .ej-main-sub{
+        position: absolute;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 99999999;
+        cursor: move;
+        padding: 0 8px;
+      }
+      .ej-main-sub > span{
+        color: white;
+        font-size: 20px;
+        line-height: 1.5;
+        text-align: center;
+        background: rgba(32, 26, 25, 0.8);
+        // text-shadow: 0px 1px 4px black;
+        padding: 2px 8px;
+        
+        lineHeight: 1.2;
+          font-size: 28px;
+          color: #FFCC00; background: rgba(17, 17, 17, 0.7);
+        
+      }
+
+      .ej-main-sub .glot-sub-clzz{
+        background: transparent !important
+      }
+
+      .tran-subtitle > .view-icon-edit-sub{
+        cursor: pointer;
+        padding-left: 10px;
+        top: 2px;
+        position: relative;
+      }
+
+      .tran-subtitle > .view-icon-edit-sub > svg{
+        width: 16px;
+        height: 16px;
+        pointer-events: none;
+      }
+      
+      </style></head>
+
+<body style="" cz-shortcut-listen="true">
+	
+	<div id="randomCanvas" class="colorCanvas"></div>
+	
+	<div id="overlayCanvas" class="overlayCanvas"></div>
+
+	<div class="container" style="padding-bottom: 0px;">
+		<h1 id="displayResolution">1440 x 900
+		</h1>
+		<h2>
+			is your screen's display resolution (width x height)
+		</h2>
+	</div>
+
+	<div class="container" style="padding-top: 3px;">
+		<h2>
+			click on each color below to check
+		</h2>
+	</div>
+
+	<div class="container">
+		<div id="yellow" name="Yellow" class="innerDiv" style="background-color: yellow;"></div>
+		<div id="blue" name="Blue" class="innerDiv" style="background-color: blue;"></div>
+		<div id="pink" name="Pink" class="innerDiv" style="background-color: pink;"></div>
+		<div id="red" name="Red" class="innerDiv" style="background-color: red;"></div>
+		<div id="green" name="Green" class="innerDiv" style="background-color: green;"></div>
+	
+		<div id="orange" name="Orange" class="innerDiv" style="background-color: orange;"></div>
+		<div id="white" name="White" class="innerDiv" style="background-color: white;"></div>
+		<div id="black" name="Black" class="innerDiv" style="background-color: black;"></div>
+		<div id="violet" name="Violet" class="innerDiv" style="background-color: violet;"></div>
+		<div id="aqua" name="Aqua" class="innerDiv" style="background-color: aqua;"></div>
+	
+		<div id="salmon" name="Salmon" class="innerDiv" style="background-color: salmon;"></div>
+		<div id="lavenderblush" name="Lavender Blush" class="innerDiv" style="background-color: lavenderblush;"></div>
+		<div id="teal" name="Teal" class="innerDiv" style="background-color: teal;"></div>
+		<div id="aquamarine" name="Aquamarine" class="innerDiv" style="background-color: aquamarine;"></div>
+		<div id="slateblue" name="Slate Blue" class="innerDiv" style="background-color: slateblue;"></div>
+
+		<div id="BurlyWood" name="BurlyWood" class="innerDiv" style="background-color: BurlyWood;"></div>
+		<div id="DarkSeaGreen" name="Dark Sea Green" class="innerDiv" style="background-color: DarkSeaGreen;"></div>
+		<div id="Lime" name="Lime" class="innerDiv" style="background-color: Lime;"></div>
+		<div id="LightSkyBlue" name="Light Sky Blue" class="innerDiv" style="background-color: LightSkyBlue;"></div>
+		<div id="Thistle" name="Thistle" class="innerDiv" style="background-color: Thistle;"></div>		
+	</div>
+
+	<div class="container" id="allColors" style="display: none;"><div id="PURPLE" name="PURPLE" class="innerDiv" style="background-color: #800080;"></div><div id="DEEPPINK" name="DEEP PINK" class="innerDiv" style="background-color: #FF1493;"></div><div id="ROYALBLUE" name="ROYAL BLUE" class="innerDiv" style="background-color: #4169E1;"></div><div id="INDIANRED" name="INDIAN RED" class="innerDiv" style="background-color: #CD5C5C;"></div><div id="MAROON" name="MAROON" class="innerDiv" style="background-color: #800000;"></div><div id="INDIGO" name="INDIGO" class="innerDiv" style="background-color: #4B0082;"></div><div id="TOMATO" name="TOMATO" class="innerDiv" style="background-color: #FF6347;"></div><div id="CHARTREUSE" name="CHARTREUSE" class="innerDiv" style="background-color: #7FFF00;"></div><div id="LEMONCHIFFON" name="LEMON CHIFFON" class="innerDiv" style="background-color: #FFFACD;"></div><div id="CRIMSON" name="CRIMSON" class="innerDiv" style="background-color: #DC143C;"></div><div id="GOLDENROD" name="GOLDENROD" class="innerDiv" style="background-color: #DAA520;"></div><div id="THISTLE" name="THISTLE" class="innerDiv" style="background-color: #D8BFD8;"></div><div id="LIGHTSEAGREEN" name="LIGHTSEAGREEN" class="innerDiv" style="background-color: #20B2AA;"></div><div id="HONEYDEW" name="HONEYDEW" class="innerDiv" style="background-color: #F0FFF0;"></div><div id="MEDIUMAQUAMARINE" name="MEDIUM AQUAMARINE" class="innerDiv" style="background-color: #66CDAA;"></div><div id="GREENYELLOW" name="GREEN YELLOW" class="innerDiv" style="background-color: #ADFF2F;"></div><div id="LIGHTSKYBLUE" name="LIGHT SKY BLUE" class="innerDiv" style="background-color: #87CEFA;"></div><div id="ALICEBLUE" name="ALICE BLUE" class="innerDiv" style="background-color: #F0F8FF;"></div><div id="MIDNIGHTBLUE" name="MIDNIGHT BLUE" class="innerDiv" style="background-color: #191970;"></div><div id="SEAGREEN" name="SEA GREEN" class="innerDiv" style="background-color: #2E8B57;"></div><div id="DARKRED" name="DARKRED" class="innerDiv" style="background-color: #8B0000;"></div><div id="DARKVIOLET" name="DARK VIOLET" class="innerDiv" style="background-color: #9400D3;"></div><div id="GRAY" name="GRAY" class="innerDiv" style="background-color: #808080;"></div><div id="SPRINGGREEN" name="SPRING GREEN" class="innerDiv" style="background-color: #00FF7F;"></div><div id="AZURE" name="AZURE" class="innerDiv" style="background-color: #F0FFFF;"></div><div id="FLORALWHITE" name="FLORAL WHITE" class="innerDiv" style="background-color: #FFFAF0;"></div><div id="YELLOW" name="YELLOW" class="innerDiv" style="background-color: #FFFF00;"></div><div id="LIGHTSTEELBLUE" name="LIGHT STEEL BLUE" class="innerDiv" style="background-color: #B0C4DE;"></div><div id="LIGHTCORAL" name="LIGHT CORAL" class="innerDiv" style="background-color: #F08080;"></div><div id="LAVENDER" name="LAVENDER" class="innerDiv" style="background-color: #E6E6FA;"></div><div id="FIREBRICK" name="FIREBRICK" class="innerDiv" style="background-color: #B22222;"></div><div id="PALEGOLDENROD" name="PALE GOLDENROD" class="innerDiv" style="background-color: #EEE8AA;"></div><div id="DARKCYAN" name="DARK CYAN" class="innerDiv" style="background-color: #008B8B;"></div><div id="TEAL" name="TEAL" class="innerDiv" style="background-color: #008080;"></div><div id="BISQUE" name="BISQUE" class="innerDiv" style="background-color: #FFE4C4;"></div><div id="CORNSILK" name="CORN SILK" class="innerDiv" style="background-color: #FFF8DC;"></div><div id="WHITESMOKE" name="WHITE SMOKE" class="innerDiv" style="background-color: #F5F5F5;"></div><div id="BLACK" name="BLACK" class="innerDiv" style="background-color: #000000;"></div><div id="CORAL" name="CORAL" class="innerDiv" style="background-color: #FF7F50;"></div><div id="STEELBLUE" name="STEEL BLUE" class="innerDiv" style="background-color: #4682B4;"></div><div id="DARKTURQUOISE" name="DARK TURQUOISE" class="innerDiv" style="background-color: #00CED1;"></div><div id="MOCCASIN" name="MOCCASIN" class="innerDiv" style="background-color: #FFE4B5;"></div><div id="LAWNGREEN" name="LAWN GREEN" class="innerDiv" style="background-color: #7CFC00;"></div><div id="GAINSBORO" name="GAINSBORO" class="innerDiv" style="background-color: #DCDCDC;"></div><div id="SLATEGRAY" name="SLATE GRAY" class="innerDiv" style="background-color: #708090;"></div><div id="AQUAMARINE" name="AQUAMARINE" class="innerDiv" style="background-color: #7FFFD4;"></div><div id="OLDLACE" name="OLD LACE" class="innerDiv" style="background-color: #FDF5E6;"></div><div id="NAVAJOWHITE" name="NAVAJO WHITE" class="innerDiv" style="background-color: #FFDEAD;"></div><div id="DEEPSKYBLUE" name="DEEP SKY BLUE" class="innerDiv" style="background-color: #00BFFF;"></div><div id="BURLYWOOD" name="BURLY WOOD" class="innerDiv" style="background-color: #DEB887;"></div><div id="SLATEBLUE" name="SLATE BLUE" class="innerDiv" style="background-color: #6A5ACD;"></div><div id="DARKKHAKI" name="DARK KHAKI" class="innerDiv" style="background-color: #BDB76B;"></div><div id="SIENNA" name="SIENNA" class="innerDiv" style="background-color: #A0522D;"></div><div id="OLIVEDRAB" name="OLIVE DRAB" class="innerDiv" style="background-color: #6B8E23;"></div><div id="FORESTGREEN" name="FOREST GREEN" class="innerDiv" style="background-color: #228B22;"></div><div id="SALMON" name="SALMON" class="innerDiv" style="background-color: #FA8072;"></div><div id="AQUA" name="AQUA" class="innerDiv" style="background-color: #00FFFF;"></div><div id="DODGERBLUE" name="DODGER BLUE" class="innerDiv" style="background-color: #1E90FF;"></div><div id="BLUEVIOLET" name="BLUE VIOLET" class="innerDiv" style="background-color: #8A2BE2;"></div><div id="BROWN" name="BROWN" class="innerDiv" style="background-color: #A52A2A;"></div><div id="BEIGE" name="BEIGE" class="innerDiv" style="background-color: #F5F5DC;"></div><div id="MEDIUMPURPLE" name="MEDIUM PURPLE" class="innerDiv" style="background-color: #9370DB;"></div><div id="SNOW" name="SNOW" class="innerDiv" style="background-color: #FFFAFA;"></div><div id="FUCHSIA" name="FUCHSIA" class="innerDiv" style="background-color: #FF00FF;"></div><div id="TURQUOISE" name="TURQUOISE" class="innerDiv" style="background-color: #40E0D0;"></div><div id="MAGENTA" name="MAGENTA" class="innerDiv" style="background-color: #FF00FF;"></div><div id="CYAN" name="CYAN" class="innerDiv" style="background-color: #00FFFF;"></div><div id="DARKSEAGREEN" name="DARK SEA GREEN" class="innerDiv" style="background-color: #8FBC8B;"></div><div id="DARKGOLDENROD" name="DARK GOLDENROD" class="innerDiv" style="background-color: #B8860B;"></div><div id="MISTYROSE" name="MISTY ROSE" class="innerDiv" style="background-color: #FFE4E1;"></div><div id="SADDLEBROWN" name="SADDLE BROWN" class="innerDiv" style="background-color: #8B4513;"></div><div id="WHEAT" name="WHEAT" class="innerDiv" style="background-color: #F5DEB3;"></div><div id="LIMEGREEN" name="LIME GREEN" class="innerDiv" style="background-color: #32CD32;"></div><div id="OLIVE" name="OLIVE" class="innerDiv" style="background-color: #808000;"></div><div id="DARKSLATEGRAY" name="DARK SLATE GRAY" class="innerDiv" style="background-color: #2F4F4F;"></div><div id="WHITE" name="WHITE" class="innerDiv" style="background-color: #FFFFFF;"></div><div id="LIGHTSLATEGRAY" name="LIGHT SLATE GRAY" class="innerDiv" style="background-color: #778899;"></div><div id="MEDIUMVIOLETRED" name="MEDIUM VIOLETRED" class="innerDiv" style="background-color: #C71585;"></div><div id="MEDIUMTURQUOISE" name="MEDIUM TURQUOISE" class="innerDiv" style="background-color: #48D1CC;"></div><div id="ORANGERED" name="ORANGE RED" class="innerDiv" style="background-color: #FF4500;"></div><div id="SANDYBROWN" name="SANDY BROWN" class="innerDiv" style="background-color: #F4A460;"></div><div id="LAVENDERBLUSH" name="LAVENDER BLUSH" class="innerDiv" style="background-color: #FFF0F5;"></div><div id="HOTPINK" name="HOT PINK" class="innerDiv" style="background-color: #FF69B4;"></div><div id="MEDIUMSLATEBLUE" name="MEDIUM SLATE BLUE" class="innerDiv" style="background-color: #7B68EE;"></div><div id="LIGHTGREEN" name="LIGHT GREEN" class="innerDiv" style="background-color: #90EE90;"></div><div id="CADETBLUE" name="CADET BLUE" class="innerDiv" style="background-color: #5F9EA0;"></div><div id="LIGHTCYAN" name="LIGHT CYAN" class="innerDiv" style="background-color: #E0FFFF;"></div><div id="DARKORCHID" name="DARK ORCHID" class="innerDiv" style="background-color: #9932CC;"></div><div id="LIGHTSALMON" name="LIGHT SALMON" class="innerDiv" style="background-color: #FFA07A;"></div><div id="MEDIUMBLUE" name="MEDIUM BLUE" class="innerDiv" style="background-color: #0000CD;"></div><div id="YELLOWGREEN" name="YELLOW GREEN" class="innerDiv" style="background-color: #9ACD32;"></div><div id="LIGHTGOLDENRODYELLOW" name="LIGHT GOLDENROD YELLOW" class="innerDiv" style="background-color: #FAFAD2;"></div><div id="SKYBLUE" name="SKY BLUE" class="innerDiv" style="background-color: #87CEEB;"></div><div id="BLANCHEDALMOND" name="BLANCHED ALMOND" class="innerDiv" style="background-color: #FFEBCD;"></div><div id="LIME" name="LIME" class="innerDiv" style="background-color: #00FF00;"></div><div id="ROSYBROWN" name="ROSY BROWN" class="innerDiv" style="background-color: #BC8F8F;"></div><div id="GHOSTWHITE" name="GHOST WHITE" class="innerDiv" style="background-color: #F8F8FF;"></div><div id="PINK" name="PINK" class="innerDiv" style="background-color: #FFC0CB;"></div><div id="GREEN" name="GREEN" class="innerDiv" style="background-color: #008000;"></div><div id="DARKMAGENTA" name="DARK MAGENTA" class="innerDiv" style="background-color: #8B008B;"></div><div id="NAVY" name="NAVY" class="innerDiv" style="background-color: #000080;"></div><div id="PALEGREEN" name="PALE GREEN" class="innerDiv" style="background-color: #98FB98;"></div><div id="LIGHTSALMON" name="LIGHT SALMON" class="innerDiv" style="background-color: #FFA07A;"></div><div id="VIOLET" name="VIOLET" class="innerDiv" style="background-color: #EE82EE;"></div><div id="PEACHPUFF" name="PEACH PUFF" class="innerDiv" style="background-color: #FFDAB9;"></div><div id="BLUE" name="BLUE" class="innerDiv" style="background-color: #0000FF;"></div><div id="MEDIUMSPRINGGREEN" name="MEDIUM SPRING GREEN" class="innerDiv" style="background-color: #00FA9A;"></div><div id="PAPAYAWHIP" name="PAPAYA WHIP" class="innerDiv" style="background-color: #FFEFD5;"></div><div id="DARKGRAY" name="DARK GRAY" class="innerDiv" style="background-color: #A9A9A9;"></div><div id="DARKSLATEBLUE" name="DARK SLATE BLUE" class="innerDiv" style="background-color: #483D8B;"></div><div id="LIGHTYELLOW" name="LIGHT YELLOW" class="innerDiv" style="background-color: #FFFFE0;"></div><div id="GREEN" name="GREEN" class="innerDiv" style="background-color: #008000;"></div><div id="ORANGE" name="ORANGE" class="innerDiv" style="background-color: #FFA500;"></div><div id="MEDIUMSLATEBLUE" name="MEDIUM SLATE BLUE" class="innerDiv" style="background-color: #7B68EE;"></div><div id="MEDIUMORCHID" name="MEDIUM ORCHID" class="innerDiv" style="background-color: #BA55D3;"></div><div id="PERU" name="PERU" class="innerDiv" style="background-color: #CD853F;"></div><div id="RED" name="RED" class="innerDiv" style="background-color: #FF0000;"></div><div id="DARKSALMON" name="DARK SALMON" class="innerDiv" style="background-color: #E9967A;"></div><div id="PLUM" name="PLUM" class="innerDiv" style="background-color: #DDA0DD;"></div><div id="CORNFLOWERBLUE" name="CORNFLOWER BLUE" class="innerDiv" style="background-color: #6495ED;"></div><div id="GOLD" name="GOLD" class="innerDiv" style="background-color: #FFD700;"></div><div id="ANTIQUEWHITE" name="ANTIQUE WHITE" class="innerDiv" style="background-color: #FAEBD7;"></div><div id="SILVER" name="SILVER" class="innerDiv" style="background-color: #C0C0C0;"></div><div id="DARKGREEN" name="DARK GREEN" class="innerDiv" style="background-color: #006400;"></div><div id="LIGHTBLUE" name="LIGHT BLUE" class="innerDiv" style="background-color: #ADD8E6;"></div><div id="FIREBRICK" name="FIREBRICK" class="innerDiv" style="background-color: #B22222;"></div><div id="MEDIUMSEAGREEN" name="MEDIUM SEA GREEN" class="innerDiv" style="background-color: #3CB371;"></div><div id="PALETURQUOISE" name="PALE TURQUOISE" class="innerDiv" style="background-color: #AFEEEE;"></div><div id="TAN" name="TAN" class="innerDiv" style="background-color: #D2B48C;"></div><div id="SEASHELL" name="SEASHELL" class="innerDiv" style="background-color: #FFF5EE;"></div><div id="CHOCOLATE" name="CHOCOLATE" class="innerDiv" style="background-color: #D2691E;"></div><div id="DARKOLIVEGREEN" name="DARK OLIVE GREEN" class="innerDiv" style="background-color: #556B2F;"></div><div id="MINTCREAM" name="MINT CREAM" class="innerDiv" style="background-color: #F5FFFA;"></div><div id="LIGHTPINK" name="LIGHT PINK" class="innerDiv" style="background-color: #FFB6C1;"></div><div id="DARKORANGE" name="DARK ORANGE" class="innerDiv" style="background-color: #FF8C00;"></div><div id="LIGHTGRAY" name="LIGHT GRAY" class="innerDiv" style="background-color: #D3D3D3;"></div><div id="ORCHID" name="ORCHID" class="innerDiv" style="background-color: #DA70D6;"></div><div id="DARKBLUE" name="DARK BLUE" class="innerDiv" style="background-color: #00008B;"></div><div id="KHAKI" name="KHAKI" class="innerDiv" style="background-color: #F0E68C;"></div><div id="POWDERBLUE" name="POWDER BLUE" class="innerDiv" style="background-color: #B0E0E6;"></div><div id="LINEN" name="LINEN" class="innerDiv" style="background-color: #FAF0E6;"></div><div id="IVORY" name="IVORY" class="innerDiv" style="background-color: #FFFFF0;"></div><div id="REBECCAPURPLE" name="REBECCA PURPLE" class="innerDiv" style="background-color: #663399;"></div><div id="PALEVIOLETRED" name="PALE VIOLETRED" class="innerDiv" style="background-color: #DB7093;"></div><div id="DIMGRAY" name="DIM GRAY" class="innerDiv" style="background-color: #696969;"></div>
+	</div>
+	
+	<div style="display: inline-block; width: 96%;">
+		<button id="randomColor" class="button">RANDOM COLOR TEST - TOUCH ME ;)</button>
+	</div>
+
+	<div style="display: inline-block; width: 96%;">
+		<button id="moreColor" class="button">I WANT TO CHECK WITH MORE COLOR</button>
+	</div>
+	<script>
+	var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+
+	/* Get into full screen */
+	function GoInFullscreen(element) {
+		if(element.requestFullscreen) {
+			element.requestFullscreen();
+		}
+		else if(element.mozRequestFullScreen) {
+			element.mozRequestFullScreen();
+		}
+		else if(element.webkitRequestFullscreen) {
+			element.webkitRequestFullscreen();
+		}
+		else if(element.msRequestFullscreen) {
+			element.msRequestFullscreen();
+		}
+	}
+
+	function GoInFullscreenIOS(element) {
+		$("#overlayCanvas").show();
+	}
+
+	/* Get out of full screen */
+	function GoOutFullscreen() {
+		if(document.exitFullscreen) {
+			document.exitFullscreen();
+		}
+		else if(document.mozCancelFullScreen) {
+			document.mozCancelFullScreen();
+		}
+		else if(document.webkitExitFullscreen) {
+			document.webkitExitFullscreen();
+		}
+		else if(document.msExitFullscreen) {
+			document.msExitFullscreen();
+		}
+	}
+
+	/* Is currently in full screen or not */
+	function IsFullScreenCurrently() {
+		var full_screen_element = document.fullscreenElement || document.webkitFullscreenElement || document.mozFullScreenElement || document.msFullscreenElement || null;
+		
+		// If no element is in full-screen
+		if(full_screen_element === null) {
+			return false;
+		}
+		else {
+			return true;
+		}
+	}
+
+	$(".container .innerDiv").on('click', function() {
+		var color = $(this).get(0).id;
+		
+		if(!iOS) {
+			$("#randomCanvas").css('background-color', color);
+			GoInFullscreen($("#randomCanvas").get(0));
+		} else {
+			$("#overlayCanvas").css('background-color', color);
+			GoInFullscreenIOS();
+		}
+		
+		eTrack(EVENT_NAME.healthCheck, EVENT_CATEGORY.squareColorClick, $(this).attr('name'));
+	});
+
+	$(".colorCanvas").on('click', function() {
+		if(IsFullScreenCurrently()) {
+			GoOutFullscreen();
+		}	
+	});
+
+	var colorInterval;
+	$("#randomColor").on('click', function() {
+		if(!iOS) {
+			GoInFullscreen($("#randomCanvas").get(0));
+		} else {
+			GoInFullscreenIOS();
+		}
+		
+		var colorList = ["black", "blue", "pink", "red", "green", "orange", "white", "yellow", "violet", "aqua", "salmon", "lavenderblush", "teal", "aquamarine", "slateblue"];
+		
+		// random display color per seconds
+		var canvas = iOS ? "overlayCanvas" : "randomCanvas";
+		colorInterval = setInterval(function() {
+			$("#" + canvas).css('background-color', colorList[Math.floor(Math.random() * colorList.length)]);
+		}, 250);
+		
+		eTrack(EVENT_NAME.healthCheck, EVENT_CATEGORY.buttonClick, 'Random Color');
+		
+	});
+
+	$("#overlayCanvas").on('click', function() {
+		$("#overlayCanvas").hide();
+		clearInterval(colorInterval);
+	});
+
+	$(document).on('fullscreenchange webkitfullscreenchange mozfullscreenchange MSFullscreenChange', function() {
+		if(IsFullScreenCurrently()) {
+			$("#randomCanvas").show();
+		}
+		else {
+			$("#randomCanvas").hide();
+			clearInterval(colorInterval);
+		}
+	});
+
+	function generateColors() {
+		var allColorsHtml = '';
+		colors = shuffle(colors);
+		for(var color in colors) {
+			allColorsHtml += '<div id="' + colors[color].code + '" name="' + colors[color].name + '" class="innerDiv" style="background-color: ' + colors[color].hex + ';"></div>';
+			
+		}
+		$("#allColors").html(allColorsHtml);
+	}
+
+	$("#moreColor").on('click', function() {
+		if($('#allColors').is(':visible')) {
+			$('#allColors').hide();
+			$('.innerDiv').css("width", '20%');
+			$('.innerDiv').css("padding-bottom", '20%');
+			$('#moreColor').text('I WANT TO CHECK WITH MORE COLOR');
+		} else {
+			// generateColors();
+			$('#allColors').show();
+			$('.innerDiv').css("width", '20%');
+			$('.innerDiv').css("padding-bottom", '20%');
+			$('#moreColor').text('I WANT TO CHECK WITH LESS COLOR');
+		}
+
+		eTrack(EVENT_NAME.healthCheck, EVENT_CATEGORY.buttonClick, 'More Color');
+	});
+
+	</script>
+</body></html>
