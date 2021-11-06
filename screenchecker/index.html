@@ -131,16 +131,19 @@ function shuffle(array) {
 	<div id="overlayCanvas" class="overlayCanvas"></div>
 
 	<div class="container" style="padding-bottom: 0px;">
-		<h1 id="displayResolution">1440 x 900
+		<h1 id="displayResolution">
+			<script>
+				$("#displayResolution").html(screen.width + " x " + screen.height);
+			</script>
 		</h1>
 		<h2>
-			is your screen's display resolution (width x height)
+			là độ phân giải màn hình của bạn (chiều rộng x chiều cao)
 		</h2>
 	</div>
 
 	<div class="container" style="padding-top: 3px;">
 		<h2>
-			click on each color below to check
+			Bấm vào từng màu bên dưới để kiểm tra
 		</h2>
 	</div>
 
@@ -174,11 +177,11 @@ function shuffle(array) {
 	</div>
 	
 	<div style="display: inline-block; width: 96%;">
-		<button id="randomColor" class="button">RANDOM COLOR TEST - TOUCH ME ;)</button>
+		<button id="randomColor" class="button">Kiểm tra tự động</button>
 	</div>
 
 	<div style="display: inline-block; width: 96%;">
-		<button id="moreColor" class="button">I WANT TO CHECK WITH MORE COLOR</button>
+		<button id="moreColor" class="button">Tôi muốn kiểm tra nhiều màu hơn</button>
 	</div>
 	<script>
 	var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
@@ -302,13 +305,13 @@ function shuffle(array) {
 			$('#allColors').hide();
 			$('.innerDiv').css("width", '20%');
 			$('.innerDiv').css("padding-bottom", '20%');
-			$('#moreColor').text('I WANT TO CHECK WITH MORE COLOR');
+			$('#moreColor').text('TÔI MUỐN KIỂM TRA NHIỀU MÀU HƠN');
 		} else {
 			// generateColors();
 			$('#allColors').show();
 			$('.innerDiv').css("width", '20%');
 			$('.innerDiv').css("padding-bottom", '20%');
-			$('#moreColor').text('I WANT TO CHECK WITH LESS COLOR');
+			$('#moreColor').text('THU GỌN');
 		}
 
 		eTrack(EVENT_NAME.healthCheck, EVENT_CATEGORY.buttonClick, 'More Color');
